@@ -37,3 +37,6 @@ management:
       exposure:
         include: hystrix.stream, info, health
       base-path: /
+
+service:
+  id: SERVICE-STUDENT-PROVIDER
