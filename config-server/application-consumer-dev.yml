@@ -35,8 +35,11 @@ management:
   endpoints:
     web:
       exposure:
-        include: hystrix.stream, info, health
+        include: *
       base-path: /
+
+info:
+  address: negeri_sembilan.port_dickson
 
 service:
   id: SERVICE-STUDENT-PROVIDER
