@@ -20,6 +20,11 @@ eureka:
     instance-id: springcloud-client-consumer-2-2
 
 spring:
+  rabbitmq:
+    host: 192.168.11.128
+    password: chloegan
+    username: chloegan
+    port: 5672
   application:
     name: service-student-consumer-2
 
