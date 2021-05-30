@@ -39,7 +39,7 @@ management:
       base-path: /
 
 info:
-  address: negeri-sembilan.port-dickson
+  address: "negeri-sembilan.port-dickson"
 
 service:
   id: SERVICE-STUDENT-PROVIDER
