@@ -42,4 +42,4 @@ info:
   address: negeri_sembilan.port_dickson
 
 service:
-  id: SERVICE-STUDENT-PROVIDER
+  id: "SERVICE-STUDENT-PROVIDER"
