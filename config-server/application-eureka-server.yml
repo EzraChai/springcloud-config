@@ -2,6 +2,12 @@
 server:
   port: 8761
 
+spring:
+  security:
+    user:
+      name: chloegan
+      password: chloegan
+
 eureka:
   instance:
     #    设置服务注册中心的hostname
