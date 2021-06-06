@@ -1,4 +1,8 @@
 spring:
+  zipkin:
+    base-url: http://localhost:9410
+    sender:
+      type: web
   application:
     name: service-student-provider
   datasource:
