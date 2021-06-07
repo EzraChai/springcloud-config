@@ -20,6 +20,13 @@ eureka:
     instance-id: springcloud-client-consumer-2-2
 
 spring:
+  sleuth:
+    sampler:
+      probability: 1.0
+    zipkin:
+      base-url: http://localhost:9410
+      sender:
+        type: web
   rabbitmq:
     host: 192.168.11.128
     password: chloegan
